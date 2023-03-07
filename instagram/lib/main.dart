@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:instagram/MyAppbar.dart';
+import 'package:instagram/PostWidget.dart';
 
 void main() {
   runApp(const MyApp());
@@ -36,6 +37,6 @@ class _MyHomePageState extends State<MyHomePage> {
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold(appBar: const CostumizedAppBar(), body: Text("yapılacak"));
+    return Scaffold(appBar: const CostumizedAppBar(), body: Postwidget());
   }
 }
