@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "1039733825242",
+    "project_id": "instagram-mock-up-6ddde",
+    "storage_bucket": "instagram-mock-up-6ddde.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1039733825242:android:cdeaf2eaffffd587abcfe3",
+        "android_client_info": {
+          "package_name": "com.example.instagram"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1039733825242-9ddljbuqj21fatl7hko09rds2ll9pr0h.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCj2e5aVTzzf8XYdRtvMV0dv-1dn2QXn1k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1039733825242-9ddljbuqj21fatl7hko09rds2ll9pr0h.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "1039733825242-a975v9704of5amcfqssrsvd582jfqabh.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.instagram"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
