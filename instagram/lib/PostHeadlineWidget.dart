@@ -14,7 +14,7 @@ class PostHeadline extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      color: Colors.black,
+      color: Color.fromARGB(255, 16, 16, 16),
       child: Row(
         mainAxisSize: MainAxisSize.max,
         children: [
@@ -47,7 +47,8 @@ class PostHeadlineProfilePicture extends StatelessWidget {
         height: 50,
         width: 50,
         decoration: BoxDecoration(
-            border: Border.all(width: 1, color: Colors.black),
+            border:
+                Border.all(width: 1, color: Color.fromARGB(255, 16, 16, 16)),
             borderRadius: BorderRadius.circular(100),
             image: DecorationImage(
                 fit: BoxFit.fitWidth, image: NetworkImage(url))));

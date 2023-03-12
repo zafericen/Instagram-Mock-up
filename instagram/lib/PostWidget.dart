@@ -20,18 +20,21 @@ class Postwidget extends StatefulWidget {
 class _PostwidgetState extends State<Postwidget> {
   @override
   Widget build(BuildContext context) {
-    return Column(
-      mainAxisSize: MainAxisSize.min,
-      children: [
-        PostHeadline(
-            url:
-                "https://media.sproutsocial.com/uploads/2022/06/profile-picture.jpeg"),
-        PostContent(
-          content_url:
-              "https://static1.cbrimages.com/wordpress/wp-content/uploads/2022/08/yuyu-wong-elden-ring-fan-art.jpeg",
-        ),
-        LikeRow()
-      ],
+    return Padding(
+      padding: EdgeInsets.only(top: 5.0, bottom: 5.0),
+      child: Column(
+        mainAxisSize: MainAxisSize.min,
+        children: [
+          PostHeadline(
+              url:
+                  "https://media.sproutsocial.com/uploads/2022/06/profile-picture.jpeg"),
+          PostContent(
+            content_url:
+                "https://static1.cbrimages.com/wordpress/wp-content/uploads/2022/08/yuyu-wong-elden-ring-fan-art.jpeg",
+          ),
+          LikeRow()
+        ],
+      ),
     );
   }
 }

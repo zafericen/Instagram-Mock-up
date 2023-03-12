@@ -44,7 +44,7 @@ class _CostumizedAppBarState extends State<CostumizedAppBar> {
             onPressed: () {
               print("kalp pressed");
             },
-            icon: Icon(Icons.heart_broken_rounded)),
+            icon: Icon(Icons.favorite_border)),
         IconButton(
             onPressed: () {
               print("mesaj pressed");

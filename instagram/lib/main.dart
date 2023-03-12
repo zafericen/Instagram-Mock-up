@@ -16,8 +16,8 @@ class MyApp extends StatelessWidget {
       title: 'Flutter Demo',
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
-        primarySwatch: Colors.deepOrange,
-      ),
+          primarySwatch: Colors.deepOrange,
+          scaffoldBackgroundColor: Colors.black),
       home: const MyHomePage(title: 'Flutter Demo Home Page'),
     );
   }
@@ -37,6 +37,13 @@ class _MyHomePageState extends State<MyHomePage> {
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold(appBar: const CostumizedAppBar(), body: Postwidget());
+    return Scaffold(
+        appBar: const CostumizedAppBar(),
+        body: Column(
+          children: [
+            Postwidget(),
+            Postwidget(),
+          ],
+        ));
   }
 }
